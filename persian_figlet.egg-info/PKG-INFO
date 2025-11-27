@@ -39,46 +39,43 @@ Dynamic: license-file
 
 # Persian Figlet (Python)
 
-Figlet-style ASCII art for Persian (Farsi) text with contextual shaping and RTL handling. This is a Python port of [`moh3n9595/persian-figlet`](https://github.com/moh3n9595/persian-figlet).
+Figlet-style ASCII art for Persian (Farsi) text with contextual shaping and RTL handling. Python port of [`moh3n9595/persian-figlet`](https://github.com/moh3n9595/persian-figlet).
 
 ## Install
 
-```
-pip install .
-```
-
-or for development:
-
-```
-pip install -e .
+```bash
+pip install persian-figlet
 ```
 
 ## Usage
+
+### CLI
+
+```bash
+persian-figlet "سلام"
+```
+
+Options:
+- `--font standard` – font name or path to a JSON font file
+- `--silent` – suppress console output
 
 ### API
 
 ```python
 from persian_figlet import render
 
-render("سلام")              # prints to stdout
-art = render("سلام", silent=True)  # returns the ASCII art string
+# Prints to stdout
+render("سلام")
+
+# Returns the ASCII art string
+art = render("سلام", silent=True)
 ```
 
-### CLI
+## Development
 
-```
-persian-figlet "سلام"
-```
-
-Options:
-
-- `--font standard` – font name or path to a JSON font file
-- `--silent` – suppress console output
-
-## Development notes
-
-- The renderer logic is a direct port of the TypeScript implementation; tests can be added with `pytest`.
+- Install dev tools: `python -m pip install -e .[dev]` (or just `pip install -e .` if you only need the package).
+- Run tests: `python -m pytest`
 
 ## License
 
-MIT License. Original work by Mohsen Madani; Python port by Hamid.
+MIT License. Original work by Mohsen Madani; Python port by Hamidreza Sadeghi.
