@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+persian_figlet/__init__.py
+persian_figlet/cli.py
+persian_figlet/fonts.py
+persian_figlet/renderer.py
+persian_figlet.egg-info/PKG-INFO
+persian_figlet.egg-info/SOURCES.txt
+persian_figlet.egg-info/dependency_links.txt
+persian_figlet.egg-info/entry_points.txt
+persian_figlet.egg-info/top_level.txt
+persian_figlet/fonts/standard.json
+tests/test_smoke.py
