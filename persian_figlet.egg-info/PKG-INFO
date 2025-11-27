@@ -2,7 +2,7 @@ Metadata-Version: 2.4
 Name: persian-figlet
 Version: 0.1.0
 Summary: Figlet-style ASCII art for Persian text (Python port of moh3n9595/persian-figlet)
-Author: Hamid
+Author: Hamidreza Sadeghi
 License: MIT License
         
         Copyright (c) 2025 Mohsen
