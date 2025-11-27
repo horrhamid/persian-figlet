@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: persian-figlet
-Version: 0.1.0
+Version: 0.1.1
 Summary: Figlet-style ASCII art for Persian text (Python port of moh3n9595/persian-figlet)
 Author: Hamidreza Sadeghi
 License: MIT License
@@ -25,6 +25,9 @@ License: MIT License
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE.
         
+Project-URL: Homepage, https://github.com/horrhamid/persian-figlet
+Project-URL: Repository, https://github.com/horrhamid/persian-figlet
+Project-URL: Bug Tracker, https://github.com/horrhamid/persian-figlet/issues
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Topic :: Text Processing :: Fonts

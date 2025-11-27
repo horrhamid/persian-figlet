@@ -24,7 +24,7 @@ persian-figlet = "persian_figlet.cli:main"
 [project.urls]
 Homepage = "https://github.com/horrhamid/persian-figlet"
 Repository = "https://github.com/horrhamid/persian-figlet"
-Bug Tracker = "https://github.com/horrhamid/persian-figlet/issues"
+"Bug Tracker" = "https://github.com/horrhamid/persian-figlet/issues"
 
 [tool.setuptools.package-data]
 persian_figlet = ["fonts/*.json"]
